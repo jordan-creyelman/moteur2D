@@ -11,6 +11,7 @@ pub struct Window {
     // Autres champs nécessaires pour wgpu, etc.
 }
 
+
 impl Window {
     pub fn new() -> Self {
         // Initialisation de l'événement loop et de la fenêtre avec winit
